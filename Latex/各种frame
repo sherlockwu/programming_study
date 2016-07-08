@@ -1,0 +1,54 @@
+% just 文字 
+	\begin{frame}   
+		\frametitle{Intro}
+		this is the first paragraph
+		\\~\\
+		Yeah this is the second paragraph 
+	\end{frame}
+
+	% 重点
+	\begin{frame}
+		\frametitle{try}
+		this is the first paragraph \\~\\
+		this is the second paragraph, hello
+
+		\begin{itemize}
+			\item first I want to say 
+			\item second, you are ... 
+
+		\end{itemize} 
+
+	\end{frame}
+
+
+
+	\begin{frame}
+		\frametitle{figure}
+		hello, I am trying to insert some graphs \\~\\ 
+
+		\begin{figure}
+		\includegraphics[width=0.8\linewidth]{美国地图.jpg}
+		\end{figure}
+	\end{frame}
+
+
+
+
+	\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+
+				\column{.15\textwidth} % Left column and width
+				\textbf{Heading}
+					\begin{enumerate}
+						\item Statement
+						\item Explanation
+						\item Example
+					\end{enumerate}
+
+				\column{.8\textwidth} % Right column and width
+					\begin{figure}
+						\includegraphics[width=0.4\linewidth]{VirtualSwitch_1.png}
+					\end{figure}
+					\begin{figure}
+						\includegraphics[width=0.4\linewidth]{VirtualSwitch.jpg}
+					\end{figure}
+			\end{columns}
